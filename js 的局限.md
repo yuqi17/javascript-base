@@ -1,6 +1,3 @@
-js 目前的单线程模式，在前端注定是没法做出流畅的，复杂的动画或者说游戏。it's pity!!!!
+js 目前的单线程模式，在前端注定是没法做出复杂的动画或者游戏。it's pity!!!!
+不过浏览器是多线程的，所以说不定会有浏览器将来提供专门开发游戏的api.要么就等js多线程了。。。
 
-例如 react 如果想用在动画结束的事件回调中处理state 是不允许的：
-```javascript
-index.js:1 Warning: Cannot update during an existing state transition (such as within `render`). Render methods should be a pure function of props and state.
-```
